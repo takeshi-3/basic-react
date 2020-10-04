@@ -10,8 +10,6 @@ import * as ReactDOM from 'react-dom';
 // styles
 import global from './styles/global.scss';
 import styles from './styles/top.module.scss';
-
-import TextEffect from './components/textEffect.jsx';
 /* ------------------------------------ */
 
 
@@ -22,7 +20,6 @@ const Top = () => {
     return (
         <main className={styles.top}>
             <h1 className={styles.top_title}>Hello, React!</h1>
-            <TextEffect />
         </main>
     );
 };
