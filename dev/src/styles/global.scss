@@ -1,0 +1,23 @@
+/* ----------- base ----------- */
+* {
+    margin: 0;
+    font-family: 'Roboto', arial, sans-serif;
+    color: #5c5c5c;
+}
+
+body {
+    font-size: 16px;
+}
+
+.container::-webkit-scrollbar {  /* Chrome, Safari 対応 */
+    display:none;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}

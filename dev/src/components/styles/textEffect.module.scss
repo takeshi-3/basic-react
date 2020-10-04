@@ -1,0 +1,18 @@
+.tf {
+    width: 100%;
+    text-align: center;
+
+    &_text {
+        padding-bottom: 20px;
+        letter-spacing: 8px;
+        font-size: 30px;
+    }
+
+    &_button {
+        border-width: 2px;
+
+        span {
+            color: white;
+        }
+    }
+}
